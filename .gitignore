@@ -1,0 +1,57 @@
+## [ Visual Studio ]
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## [ .NET / ASP.NET Core ]
+# User-secrets and Local Settings
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Temporary files created by .NET
+.templateengine/
+.librarymanager/
+.vs/
+.idea/
+
+# NuGet Packages
+*.nupkg
+# The packages folder is usually omitted because it's restored on build
+**/[Pp]ackages/*
+!**/[Pp]ackages/repositories.config
+
+## [ Frontend / Tools ]
+# Node.js (if using Angular/React/LibMan)
+node_modules/
+npm-debug.log*
+
+# Static assets folders that are auto-generated
+wwwroot/lib/
+
+## [ OS Specific ]
+.DS_Store
+Thumbs.db
+
+## [ Custom Uploads Folder ]
+# Since your project saves files to "Uploads/", you should ignore the 
+# content but keep the folder.
+/Uploads/*
+!/Uploads/.gitkeep
